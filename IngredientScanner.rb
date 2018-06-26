@@ -1,12 +1,12 @@
 f= File.open("ingredient.txt",'r')
 #Ingredient to check for
-badSulfates = ["Alkylbenzene sulfonate","Alkyl Benzene Sulfonate","Ammonium laureth sulfate","Ammonium lauryl sulfate","Ammonium Xylenesulfonate",
-    "Sodium C14-16 Olefin Sulfonate","Sodium cocoyl sarcosinate","Sodium laureth sulfate","Sodium Myreth","Sodium lauryl sulfate","Sodium lauryl sulfoacetate",
-    "Sodium myreth sulfate","Sodium Xylenesulfonate","TEA-dodecylbenzenesulfonate","Ethyl PEG-15 cocamine sulfate","Dioctyl sodium sulfosuccinate"]
-badSilicones = ["Dimethicone","Bis-aminopropyl dimethicone","Cetearyl methicone","Cetyl Dimethicone","Cyclopentasiloxane","Stearoxy Dimethicone",
-    "Stearyl Dimethicone","Trimethylsilylamodimethicone","Amodimethicone","Dimethicone","Dimethiconol","Behenoxy Dimethicone","Phenyl trimethicone"]
-badAlcohols = ["Denatured alcohol","SD alcohol 40","Witch hazel","Isopropanol","Ethanol","SD alcohol","Propanol","Propyl alcohol","Isopropyl alcohol"]
-otherBadIngredients = ["Mineral oil","Paraffinum liquidum","Petrolatum","Bees wax","Candelilla wax"]
+badSulfates = ["Alkylbenzene Sulfonate","Alkyl Benzene Sulfonate","Ammonium Laureth Sulfate","Ammonium Lauryl Sulfate","Ammonium Xylenesulfonate",
+    "Sodium C14-16 Olefin Sulfonate","Sodium Cocoyl Sarcosinate","Sodium Laureth Sulfate","Sodium Lauryl Sulfate","Sodium Lauryl Sulfoacetate",
+    "Sodium Myreth Sulfate","Sodium Xylenesulfonate","TEA-dodecylbenzenesulfonate","Ethyl PEG-15 Cocamine Sulfate","Dioctyl Sodium Sulfosuccinate"]
+badSilicones = ["Dimethicone","Bis-aminopropyl Dimethicone","Cetearyl Methicone","Cetyl Dimethicone","Cyclopentasiloxane","Stearoxy Dimethicone",
+    "Stearyl Dimethicone","Trimethylsilylamodimethicone","Amodimethicone","Dimethicone","Dimethiconol","Behenoxy Dimethicone","Phenyl Trimethicone"]
+badAlcohols = ["Denatured Alcohol","SD Alcohol 40","Witch Hazel","Isopropanol","Ethanol","SD alcohol","Propanol","Propyl Alcohol","Isopropyl Alcohol"]
+otherBadIngredients = ["Mineral Oil","Paraffinum Liquidum","Petrolatum","Bees Wax","Candelilla Wax"]
 whiteListIngredients= ["Phenoxyethanol"]
 foundIngredients = Array.new
 
